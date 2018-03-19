@@ -18,7 +18,7 @@ public class Otp extends AppCompatActivity {
     }
     public void on_help(View view)
     {
-        Intent i=new Intent(Otp.this,Help.class)
+        Intent i=new Intent(Otp.this,Help.class);
         startActivity(i);
     }
 }
