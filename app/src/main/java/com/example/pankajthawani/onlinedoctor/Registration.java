@@ -1,5 +1,6 @@
 package com.example.pankajthawani.onlinedoctor;
 
+import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
@@ -8,10 +9,11 @@ import android.widget.EditText;
 import android.widget.TextView;
 
 public class Registration extends AppCompatActivity {
+
+    static  String nameuser,mobuser;
     TextView reg;
     EditText name,mob;
-    Button register;
-    static  String nameuser,mobuser;
+    Button register;;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -25,7 +27,8 @@ public class Registration extends AppCompatActivity {
         register.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                //Code to intent...
+                Intent intent=new Intent(Registration.this,Otp.class);
+                startActivity(intent);
             }
         });
 
