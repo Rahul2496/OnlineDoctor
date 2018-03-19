@@ -21,6 +21,7 @@ public class Splash extends AppCompatActivity {
                 } finally {
                     //Code to intent to move this from registration activity
                     Intent i =new Intent(Splash.this,Registration.class);
+                    startActivity(i);
                     finish();
                 }
             }

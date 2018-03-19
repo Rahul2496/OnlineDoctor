@@ -8,7 +8,8 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
 
-public class Registration extends AppCompatActivity {
+public class
+Registration extends AppCompatActivity {
 
     static  String nameuser,mobuser;
     TextView reg;
