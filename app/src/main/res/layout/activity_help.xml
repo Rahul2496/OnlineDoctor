@@ -6,4 +6,13 @@
     android:layout_height="match_parent"
     tools:context="com.example.pankajthawani.onlinedoctor.Help">
 
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/onhelp"
+        android:textSize="30dp"
+        android:fontFamily="cursive"
+        android:textColor="@android:color/holo_red_dark"
+        android:text="@string/help"/>
+
 </android.support.constraint.ConstraintLayout>

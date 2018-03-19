@@ -1,8 +1,14 @@
 <resources>
     <string name="app_name">OnlineDoctor</string>
     <string name="help">
-        This is an online doctor prescription application which will help the patient to choose the medicine to use during some specific symptoms.In this patient will enter the symptoms and will get the corresponding medicines related to the symptoms.
+        This is an online doctor prescription application which will help the patient to choose the medicine to use during some specific symptoms.In this patient will enter the symptoms and will get the corresponding medicines related to the symptoms.In this application you have to first register yourslf by entering your name and mobile no and then enter the symptoms and you will get the corresponding medicines related to symptoms.
 
 
     </string>
+    <string name="title_activity_dashboard">Dashboard</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
 </resources>
