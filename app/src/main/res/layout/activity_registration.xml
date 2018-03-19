@@ -54,10 +54,11 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="350dp"
         android:id="@+id/submitbtn"
+        android:onClick="on_help"
         android:fontFamily="cursive"
         android:textColor="@android:color/black"
         android:layout_centerHorizontal="true"
         android:background="@drawable/buttonshape"
         android:text="Register"
-        />
+        tools:ignore="OnClick" />
 </RelativeLayout>

@@ -17,7 +17,8 @@
             </intent-filter>
         </activity>
         <activity android:name=".Registration" />
-        <activity android:name=".Otp"></activity>
+        <activity android:name=".Otp" />
+        <activity android:name=".Help"></activity>
     </application>
 
 </manifest>
