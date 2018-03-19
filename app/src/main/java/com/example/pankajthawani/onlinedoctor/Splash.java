@@ -1,5 +1,6 @@
 package com.example.pankajthawani.onlinedoctor;
 
+import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 
@@ -19,6 +20,7 @@ public class Splash extends AppCompatActivity {
                     e.printStackTrace();
                 } finally {
                     //Code to intent to move this from registration activity
+                    Intent i =new Intent(Splash.this,Registration.class);
                     finish();
                 }
             }
