@@ -52,7 +52,7 @@ Registration extends AppCompatActivity {
                     Toast.makeText(Registration.this, ""+e, Toast.LENGTH_SHORT).show();
                 }
                 SmsManager smsManager=SmsManager.getDefault();
-                smsManager.sendTextMessage(mob.getText().toString(),null,"Hello "+usrname+"\n"+"Your OTP is "+number,null,null);
+                smsManager.sendTextMessage(mob.getText().toString(),null,"Hello "+mob.getText().toString()+"\n"+"Your OTP is "+number,null,null);
                 Intent intent=new Intent(Registration.this,Otp.class);
                 startActivity(intent);
             }
