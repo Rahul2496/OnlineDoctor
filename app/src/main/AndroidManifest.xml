@@ -21,10 +21,7 @@
         <activity android:name=".Registration" />
         <activity android:name=".Otp" />
         <activity android:name=".Help" />
-        <activity
-            android:name=".Dashboard"
-            android:label="@string/title_activity_dashboard"
-            android:theme="@style/AppTheme.NoActionBar"></activity>
+        <activity android:name=".HomePage"></activity>
     </application>
 
 </manifest>

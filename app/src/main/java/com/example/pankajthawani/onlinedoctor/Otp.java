@@ -26,7 +26,7 @@ public class Otp extends AppCompatActivity {
             //Code to check weather the entered OTP is correct or not..
             if (Registration.number.toString().equals(otp.getText().toString()))
             {
-                Intent intent=new Intent(Otp.this,Dashboard.class);
+                Intent intent=new Intent(Otp.this,HomePage.class);
                 startActivity(intent);
             }
             else
